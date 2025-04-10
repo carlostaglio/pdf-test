@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+#logo {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.box {
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.place, .date {
+    display: inline-block;
+    width: 65%;
+    padding: 0px 10px;
+}
+
+.date {
+    width: 25%;
+}
+
+.reason {
+    margin-bottom: 20px;
+}
+
+.reason-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.option {
+    width: 23%;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+
+.check {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+.option-text {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.observations {
+    margin-bottom: 20px;
+}
+
+.obs-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.obs-box {
+    width: 98%;
+    min-height: 100px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.signatures {
+    margin-top: 40px;
+    display: block;
+}
+
+.signature {
+    width: 42%;
+    min-height: 70px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+.signature-image {
+    width: 150px;
+}
