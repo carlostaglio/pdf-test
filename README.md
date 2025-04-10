@@ -42,13 +42,13 @@ GET
 POST
 /api/visita-pdf             Genera el pdf de constancia de visita, solicita los campos:
 {
-  "empresa": string(30),
-  "razon social": string(30),
-  "cuit": string(30),
-  "direccion": string(50),
-  "localidad": string(30),
+  "empresa": string(max:30),
+  "razon_social": string(max:30),
+  "cuit": string(max:30),
+  "direccion": string(max:50),
+  "localidad": string(max:30),
   "motivo": string(rutina|capacitacion|ambiente|otros),
-  "observaciones": string(3000),
+  "observaciones": string(max:3000),
 }
 ```
 
